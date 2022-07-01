@@ -1,6 +1,131 @@
-#cards{
-	margin-top: 25px;,
-	 height: 100px;
-		width: 2000px;
-		background-color: powderblue;
+body{
+	backgraundo- color: #1E90FF;
 }
+
+h4 {
+  text-align: center;
+  font-size: 50
+}
+
+p {
+  font-size: 30;
+  
+}
+
+h1 {
+  font-size: 20;
+}
+
+#b{
+	width:400;
+	margin: 0 alto;
+}
+
+#c{
+	width:400;
+}
+
+#d{
+	width:400;
+}
+
+#a{
+	width:400;
+}
+
+#e{
+	width:400;
+}
+
+#cards{
+	margin-top:25px;
+	margin-top: 2px;
+}
+.editar-card{
+	background-color: 	#DDA0DD;
+	padding: 5%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+#imagens{
+	 margin: 25px 50px 75px 100px;
+}
+
+#imagem1{
+	background-color: #7FFFD4;
+	height: 500%;
+}
+#imagem2{
+	background-color: #00FF00;
+	height: 500%;
+}
+#imagem3{
+	background-color: #FF1493;.
+	height: 500%;
+}
+#imagem4{
+	background-color: #FFFF00;
+	height: 500%;
+}
+#por{
+	height: 100%;
+}
+.efeito-card{
+	transition: transform 1s;
+}
+.efeito-img{
+	transition: transform 1s;
+}
+.efeito-img:hover{
+	transform: scale(1.2) rotateY(360deg);
+	cursor: pointer;
+}
+
+<style>
+#img1{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#img1:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+</style>
+
+<style>
+#img2{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#img2:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+</style>
+
+<style>
+#img3{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#img3:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+</style>
+
+<style>
+#img4{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#img4:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+</style>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>contatos</title>
+	<link rel="stylesheet" href="res/bootstrap/css/bootstrap.min.css">
+	<link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/58/58463.png">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body style="background-color: Turquoise;">
+    <nav class="navbar navbar-expand-lg navbar">
+		<div class="container ">
+				
+			<a class="navbar-brand" href="#">
+				<img src="img/honda.png" alt="logo incrivel" width="75" height="75">
+			</a>
+			
+			<div class="collapse navbar-collapse">
+				<div class="navbar-nav">
+					<a class="nav-link active" href="index.html">inicio</a>
+					<a class="nav-link" href="noticia.html">noticia</a>
+					<a class="nav-link" href="contato.html">contato</a>
+					<a class="nav-link" href="sobre.html">sobre</a>
+				</div>
+			
+			</div>
+			
+		</div>
+	
+	</nav>
+	
+	<section id="fale conosco">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+				<h3 class="display-5">fale conosco</h3>
+				</div>
+			</div>
+		
+		
+		<div class="row">
+			<div class="col-12">
+			<form>
+				<label for="nome-completo" class="form-label">digite seu nome: </label>
+				<input type="text" class="form-control" id="nome-completo" required>
+				<p class="form-text">digite seu nome completo neste campo <p>
+			</form>
+			
+			<form>
+				<label for="email" class="form-label">digite seu email: </label>
+				<input type="text" class="form-control" id="email" required>
+				<p class="form-text">digite seu email neste campo <p>
+			</form>
+			
+			<form>
+				<label for="telefone" class="form-label">digite seu telefone: </label>
+				<input type="text" class="form-control" id="telefone" required>
+				<p class="form-text">digite seu telefone completo neste campo <p>
+			</form>
+			
+			<form>
+				<label for="telefone" class="form-label">digite seu estado: </label>
+				<input type="text" class="form-control" id="estado" required>
+				<p class="form-text">digite seu estado neste campo <p>
+			</form>
+			
+			<form>
+				<label for="telefone" class="form-label">digite seu cidade: </label>
+				<input type="text" class="form-control" id="cidade" required>
+				<p class="form-text">digite sua cidade neste campo <p>
+				<label for="motivo-contato" class="form-label">motivo do contato</label>
+				<select class="form-select" id="motivo-contato">
+					<option>veiculo veio com defeito interno</option>
+					<option>quero trocar de veiculo</option>
+					<option>não gostei da cor do veiculo</option>
+					<option>elogiar a empresa</option>
+				</select>
+						<label form="caixa-texto" class="form-labeel">olà tudo bem </label>
+						<textarea class="form-control" id="caixa-texto" rows="3"></textarea>
+						<button type="button" onclick="validarFormulario()" class="btn btn-primary" data-bs-toggle="button">enviar</button>				
+			</form>
+			</div>
+		</div>
+	</div>
+	</section>
+	
+	<footer id="rodape">
+				<div class="container">
+					<div class="row">
+						<div class="col-4">
+							<img src="img/logo.png" style="width:75px;">
+							<span class="text-muted"> <b> &copy;2022 programação web. </b> </span>
+						</div>
+						
+						<div class="col-4 text-center">
+							<ul class="nav justify-content-center">
+								<li class="nav-item"><b><a class="nav-link text-muted" href="#"> inicio</a> </b> </li>
+								<li class="nav-item"><b><a class="nav-link text-muted" href="#"> noticia</a> </b> </li>
+								<li class="nav-item"><b><a class="nav-link text-muted" href="#"> contato</a> </b> </li>
+								<li class="nav-item"><b><a class="nav-link text-muted" href="#" > sobre voce</a> </b> </li>
+							</ul>
+						</div>
+					<div class="col-4 text-end">
+						<img src="img/twitter.png">
+						<img src="img/instagram.png">
+						<img src="img/facebook.png">
+					</div>
+					</div>
+				</div>
+			
+			</footer>
+			<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
