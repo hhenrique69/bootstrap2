@@ -20,6 +20,7 @@ h1 {
   font-size: 20;
 }
 
+
 #b{
 	width:400;
 	margin: 0 alto;
@@ -39,6 +40,10 @@ h1 {
 
 #e{
 	width:400;
+}
+
+#logocarrinho{
+	font-size: 500;
 }
 
 #cards{
@@ -124,6 +129,7 @@ h1 {
 
 <style>
 #img4{
+	
     transition: all 0.5s;
     cursor: pointer;
 }

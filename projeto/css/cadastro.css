@@ -28,7 +28,7 @@ a.links{
 /* formatando o cabeçalho dos formulários */
 h1{
   font-size: 48px;
-  color: #066a75;
+  color: #000000;
   padding: 10px 0;
   font-family: Arial,sans-serif;
   font-weight: bold;
@@ -52,8 +52,8 @@ p:first-child{
   margin: 0px;
 }
 label{
-  color: #405c60;
-  position: relative;
+  color: #000000;
+  position: #000000;
 }
 
 /**** advanced input styling ****/
@@ -64,7 +64,7 @@ label{
 }
 input:-moz-placeholder,
 textarea:-moz-placeholder{
-  color: #bebcbc;
+  color: #00FFFF;
   font-style: italic;
 } 
 input {
@@ -75,7 +75,7 @@ input:not([type="checkbox"]){
   width: 95%;
   margin-top: 4px;
   padding: 10px;  
-  border: 1px solid #b2b2b2;
+  border: #000000;
   
   -webkit-border-radius: 3px;
   border-radius: 3px;
@@ -91,13 +91,13 @@ input:not([type="checkbox"]){
 input[type="submit"]{
   width: 100%!important;
   cursor: pointer;  
-  background: #3d9db3;
+  background: 	#00BFFF;
   padding: 8px 5px;
-  color: #fff;
+  color: black;
   font-size: 20px;  
-  border: 1px solid #fff; 
+  border: 1px solid #000000; 
   margin-bottom: 10px;  
-  text-shadow: 0 1px 1px #333;
+  text-shadow: 0 1px 1px #000000;
   
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -111,8 +111,8 @@ input[type="submit"]:hover{
 /*marcando os links para mudar de um formulário para outro */
 .link{
   position: absolute;
-  background: #e1eaeb;
-  color: #7f7c7c;
+  background:#48D1CC;
+  color: #000000;
   left: 0px;
   height: 20px;
   width: 440px;
@@ -126,11 +126,11 @@ input[type="submit"]:hover{
 }
 .link a {
   font-weight: bold;
-  background: #f7f8f1;
+  background: #00BFFF;
   padding: 6px;
-  color: rgb(29, 162, 193);
+  color: #000000;
   margin-left: 10px;
-  border: 1px solid #cbd518;
+  border: 1px solid #000000;
 
   -webkit-border-radius: 4px;
   border-radius: 4px;  
@@ -152,7 +152,7 @@ input[type="submit"]:hover{
   width: 88%; 
   padding: 18px 6% 60px 6%;
   margin: 0 0 35px 0;
-  background: rgb(247, 247, 247);
+  background: #48D1CC;
   border: 1px solid rgba(147, 184, 189,0.8);
   
   -webkit-box-shadow: 5px;
