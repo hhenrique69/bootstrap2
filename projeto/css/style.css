@@ -1,65 +1,38 @@
 body{
-	backgraund-color: #1E90FF;
+	background-color: #1E90FF;
 }
 
-.search-box{
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%,-50%);
+#barra{
+	margin-left:50%;
 
-backgraund: #fff;
-height: 50px;
-padding: 10px;
-border-radius:40px;
-display: flex;
-justify-content: space-between;
-align-items: center;
 }
 
-.loupe-white {
-	
+.paretense{
+		padding-left:150px;
+		padding-right:150px;
 }
-.search-txt{
-	border: none;
-	backgraund: none;
-	outline: none;
-	padding: 0;
-	color:#f0f5fb;
-	font-size: 16px;
-	line-height: 40px;
-	width:0;
-	transition:.2s;
-}
-
-::-webkit-input-placeholder{
-	
-}
-
-.search-btn{
-	width: 40pc;
-	height: 40px; 
-	border-radius: 50%;
-	backgraund: #0a1b2d;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.search-box-hover> .search-txt{
-	width: 240px; 
-	padding: 0 6px;
-}
-
-.search-box-hover > .search-btn{
-	backgraund: #f0f5fb;
-	}
-
 
 #fundo{
-	background-image: url("file:///C:/Users/tecti/Desktop/bootstrap2/img/fer.webp");
+	height:110px;
+	background-image: linear-gradient(to right,#00BFFF,#66CDAA,	#F4A460);
+	color: #fff;
 }
 
+#fundo2{
+	height:110px;
+	background-image: linear-gradient(to right,#363636,#FF69B4,	#363636);
+	color: #fff;
+}
+
+#fundo3{
+	height:110px;
+	background-image: linear-gradient(to right,#363636,#FF69B4,	#363636);
+	color: #fff;
+}
+
+#barra input{
+	width:300px;
+}
 
 h4 {
   text-align: center;

@@ -139,7 +139,7 @@ input[type="submit"]:hover{
   transition: all 0.4s  linear;
 }
 .link a:hover {
-  color: #FFDEAD;
+  color: #FF00FF;
   background: #f7f7f7;
   border: 1px solid #4ab3c6;
 }
@@ -230,4 +230,10 @@ input[type="submit"]:hover{
 
 #myimg{
 	right:50;
+}
+
+#fundo3{
+	height:110px;
+	background-image: linear-gradient(to right,#363636,		#F0E68C,#363636);
+	color: #fff;
 }
